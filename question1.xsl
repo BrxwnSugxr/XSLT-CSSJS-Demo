@@ -13,22 +13,22 @@ xmlns="http://www.w3.org/1999/xhtml">
             <h1>Exam result </h1>
 
             Reference number: 
-            DATA HERE
+            <xsl:value-of select="@ref" />
             <br/>
             Exam number:
-            DATA HERE
+            <xsl:value-of select="examId" />
             <br/>
             Contestant number:
-            DATA HERE
+            <xsl:value-of select="contestantId" />
             <br/>
             Digital signature:
-            DATA HERE
+            <xsl:value-of select="digitalSignature" />
             <br/>
             Score:
-            DATA HERE
+            <xsl:value-of select="score" />
             <br/>
             Band:
-            DATA HERE
+            <xsl:value-of select="band" />
             <br/>
         </body>
     </html>
