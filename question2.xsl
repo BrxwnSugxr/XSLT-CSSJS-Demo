@@ -33,9 +33,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                     color: maroon;
                     font-size: 25px;
                 }
+          
             </style>
         </head>
             <body>
+           
                 <h1>Exam Ref</h1>
                 <table border="0" id="resultTable">
                     <tr>

@@ -10,6 +10,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <title>XSLT example</title>
     </head>
     <body>
+   
         <b>Campus:</b> <xsl:value-of select="@campus" /><br />
         <b>Year:</b> <xsl:value-of select="@year"/><br />
         <b>Session:</b> <xsl:value-of select="@session"/><br />
