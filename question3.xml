@@ -21,4 +21,22 @@
     </statistics>
   </subject>
 
+  <subject sid="1534231">
+    <code>CSC234</code>
+    <title>Abstract Algebra</title>
+    <statistics>
+      <enrol>40</enrol>
+      <withdrawn>15</withdrawn>
+    </statistics>
+  </subject>
+
+  <subject sid="1934231">
+    <code>MATH234</code>
+    <title>Abstract Algebra</title>
+    <statistics>
+      <enrol>40</enrol>
+      <withdrawn>15</withdrawn>
+    </statistics>
+  </subject>
+
 </audit>

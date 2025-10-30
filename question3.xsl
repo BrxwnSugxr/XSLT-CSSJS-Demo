@@ -14,19 +14,24 @@ xmlns="http://www.w3.org/1999/xhtml">
         <b>Year:</b> <xsl:value-of select="@year"/><br />
         <b>Session:</b> <xsl:value-of select="@session"/><br />
         <br />
-        <table>
+        <table border="1">
             <tr>
                 <th>ID</th>
                 <th>Subject</th>
                 <th>Enrol</th>
                 <th>Widthdrawn</th>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+        
+            <xsl:for-each select="subject">
+                <tr>
+                    <td><xsl:value-of select="@sid" /></td>
+                    <td><xsl:value-of select="code" />: <xsl:value-of select="title"/></td>
+                    <td><xsl:value-of select="statistics/enrol" /></td>
+                    <td><xsl:value-of select="statistics/withdrawn" /></td>
+                   
+                </tr>
+
+            </xsl:for-each>
         </table>
     </body>
 </html>
