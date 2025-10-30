@@ -1,0 +1,8 @@
+      h1 {
+        text-align: center;
+        padding-inline: 10px;
+      }
+
+      #headingTag:hover {
+        transform: scale(2);
+      }
